@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Data files (large)
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+merged_final.json
+clustering_data/
+Chroma_db/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary
+temp_update/
+runs/
+*.tmp
+
+# OS
+Thumbs.db
+Desktop.ini
+
